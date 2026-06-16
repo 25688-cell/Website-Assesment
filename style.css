@@ -23,6 +23,15 @@
     margin: auto;
     margin-top: 100px;
 }
+.three-coloums {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
 img {
     width: 100%;
     height: auto;   
@@ -33,4 +42,11 @@ img {
 }
 .text h1 {
     margin-top: -5px;
+}
+.card {
+    background-color: #2d009b;
+}
+.card h2 {
+    color: white;
+    text-align: center;
 }
